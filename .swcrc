@@ -1,0 +1,21 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    "target": "ES2022",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "useDefineForClassFields": false,
+      "decoratorMetadata": true
+    },
+    "keepClassNames": false,
+    "baseUrl": "./src",
+  },
+  "module": {
+    "type": "commonjs"
+  }
+}
